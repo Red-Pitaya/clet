@@ -92,10 +92,10 @@ libtorch_demo_EXTERNAL_OBJECTS =
 
 libtorch_demo: CMakeFiles/libtorch_demo.dir/main.cpp.o
 libtorch_demo: CMakeFiles/libtorch_demo.dir/build.make
-libtorch_demo: /home/liana/clet-main/libtorch/lib/libtorch.so
-libtorch_demo: /home/liana/clet-main/libtorch/lib/libc10.so
-libtorch_demo: /home/liana/clet-main/libtorch/lib/libkineto.a
-libtorch_demo: /home/liana/clet-main/libtorch/lib/libc10.so
+libtorch_demo: /home/liana/libtorch/lib/libtorch.so
+libtorch_demo: /home/liana/libtorch/lib/libc10.so
+libtorch_demo: /home/liana/libtorch/lib/libkineto.a
+libtorch_demo: /home/liana/libtorch/lib/libc10.so
 libtorch_demo: CMakeFiles/libtorch_demo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liana/clet-main/torch_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable libtorch_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libtorch_demo.dir/link.txt --verbose=$(VERBOSE)

@@ -5,7 +5,7 @@ project(libtorch_demo LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
  
-set(Torch_DIR /home/liana/clet-main/libtorch/share/cmake/Torch)
+set(Torch_DIR /home/liana/libtorch/share/cmake/Torch)
 find_package(Torch REQUIRED)
  
 add_executable(libtorch_demo main.cpp)

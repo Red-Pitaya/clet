@@ -187,7 +187,7 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //The directory containing a CMake configuration file for Caffe2.
-Caffe2_DIR:PATH=/home/liana/clet-main/libtorch/share/cmake/Caffe2
+Caffe2_DIR:PATH=/home/liana/libtorch/share/cmake/Caffe2
 
 //The directory containing a CMake configuration file for MKLDNN.
 MKLDNN_DIR:PATH=MKLDNN_DIR-NOTFOUND
@@ -196,16 +196,13 @@ MKLDNN_DIR:PATH=MKLDNN_DIR-NOTFOUND
 MKL_DIR:PATH=MKL_DIR-NOTFOUND
 
 //Path to a library.
-TORCH_LIBRARY:FILEPATH=/home/liana/clet-main/libtorch/lib/libtorch.so
-
-//The directory containing a CMake configuration file for Torch.
-Torch_DIR:PATH=Torch_DIR-NOTFOUND
+TORCH_LIBRARY:FILEPATH=/home/liana/libtorch/lib/libtorch.so
 
 //Path to a library.
-c10_LIBRARY:FILEPATH=/home/liana/clet-main/libtorch/lib/libc10.so
+c10_LIBRARY:FILEPATH=/home/liana/libtorch/lib/libc10.so
 
 //Path to a library.
-kineto_LIBRARY:FILEPATH=/home/liana/clet-main/libtorch/lib/libkineto.a
+kineto_LIBRARY:FILEPATH=/home/liana/libtorch/lib/libkineto.a
 
 //Value Computed by CMake
 libtorch_demo_BINARY_DIR:STATIC=/home/liana/clet-main/torch_test/build
@@ -351,7 +348,7 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Torch
-FIND_PACKAGE_MESSAGE_DETAILS_Torch:INTERNAL=[/home/liana/clet-main/libtorch/lib/libtorch.so][/home/liana/clet-main/libtorch/include;/home/liana/clet-main/libtorch/include/torch/csrc/api/include][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_Torch:INTERNAL=[/home/liana/libtorch/lib/libtorch.so][/home/liana/libtorch/include;/home/liana/libtorch/include/torch/csrc/api/include][v()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 
