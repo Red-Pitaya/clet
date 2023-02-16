@@ -1,3 +1,0 @@
-/home/liana/clet-main/torch_test/build/CMakeFiles/libtorch_demo.dir
-/home/liana/clet-main/torch_test/build/CMakeFiles/edit_cache.dir
-/home/liana/clet-main/torch_test/build/CMakeFiles/rebuild_cache.dir
